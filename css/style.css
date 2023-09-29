@@ -1,0 +1,232 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  /* *{margin: 0;
+    padding: 0;
+} */
+
+#container{
+    margin: auto;
+    width:400px;
+    height:800px;
+    background-color:#f7f7f7;
+}
+
+#header{
+    width: 400px;
+    height: 360px;
+}
+
+#img_fundo{
+    width: 400px;
+    height: 360px;
+    margin-bottom: -340px;
+}
+
+#buscar{
+    font-size: 16px;
+    height: 50px;
+    width: 320px;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+
+#img_buscar{
+    width:25px;
+    height:25px;
+    margin-left:-50px;
+    margin-bottom: -10px;
+    filter: opacity(0.3);
+}
+
+#p_hum{
+    font-size: 36px;
+    font-family: 'roboto', 'sans-serif';
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+    margin-top: 130px;
+    padding-left: 25px; 
+    width: 340px;
+}
+
+#buscar_cidade{
+    font-size: 16px;
+    height: 50px;
+    width: 320px;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding-left: 15px;
+    border: none;
+    outline:none;
+}
+#slide_floresta{
+    width: 140px;
+    height:150px;
+    margin-top:40px;
+    margin-left: 20px;
+    border-radius:5px 5px 0 0;
+
+}
+#p_dois{
+    color:#000;
+    text-transform: capitalize;
+    width: 125px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    font-family: 'roboto', 'sans-serif';
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-top: -8px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+                0 4px 8px rgba(0, 0, 0, 0.2);
+   
+}
+
+#folha{
+    width: 25px;
+    height: 25px;
+    margin-left: 125px;
+    margin-top: -70px;
+    margin-bottom: 40px;
+    filter: opacity(0.3);
+}
+
+#slide_praia{ 
+    width: 140px;
+    height:150px;
+    margin-top:-230px;
+    margin-left: 180px;
+    margin-bottom: 96px;
+    border-radius:5px 5px 0 0;
+}
+
+#p_tres{
+    color:#000;
+    text-transform: capitalize;
+    width: 125px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    font-family: 'roboto', 'sans-serif';
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-top: -104px;
+    margin-left: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+                0 4px 8px rgba(0, 0, 0, 0.2) ; 
+}  
+#praia{
+    width: 25px;
+    height: 25px;
+    margin-left: 285px;
+    margin-top: -70px;
+    margin-bottom: 40px;
+    filter: opacity(0.3); 
+}
+
+#footer{
+    width: 400px;
+    height: 170px;
+    background-color: #222;
+}
+
+#p_saiba_mais{
+    font-size: 16px;
+    font-family: 'roboto', 'sans-serif';
+    font-weight: bold ;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+#ret_um{
+    width: 2px;
+    height: 8px;
+    background-color: #404040;
+    margin-top: -145px;
+    margin-left: 40px;
+}
+
+#p_sobre_empresa{
+    font-size: 12px;
+    font-family: 'roboto','sans-serif';
+    font-weight: normal;
+    color: #cfcfcf;
+    margin-top: -15px;
+    margin-left: 50px;
+}
+
+#ret_dois{
+    width: 2px;
+    height: 8px;
+    background-color: #404040;
+    margin-top: -145px;
+    margin-left: 240px;
+    margin-bottom: 30px;
+}
+
+#p_perguntas{
+    font-size: 12px;
+    font-family: 'roboto','sans-serif';
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #cfcfcf;
+    margin-bottom: 30px;
+    margin-top: -45px;
+    margin-left: 250px;
+}
+
+#linha_hum{
+    width: 350px;
+    height: 1px;
+    background-color: #2e2e2e;
+    margin-left: 30px;
+    margin-bottom:20px ;
+    margin-top: -20px;
+}
+#p_vagas_abertas{
+    font-size: 12px;
+    font-family: 'roboto','sans-serif';
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #cfcfcf;
+    margin-top: -15px;
+    margin-left: 50px;
+}
+
+#ret_tres{
+    width: 2px;
+    height: 8px;
+    background-color: #404040;
+    margin-top: -155px;
+    margin-left: 40px;
+    margin-bottom:30px ;
+}
+
+#p_meios_pagamento{
+    font-size: 12px;
+    font-family: 'roboto','sans-serif';
+    font-weight: normal;
+    color: #cfcfcf;
+    margin-top: -45px;
+    margin-left: 250px;
+}
+
+#ret_quatro{
+    width: 2px;
+    height: 8px;
+    background-color: #404040;
+    margin-top: -145px;
+    margin-left: 240px;
+    margin-bottom:30px ;
+}
+
